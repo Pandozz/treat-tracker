@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Treat Tracker</title>
+        {% else %}
+        <title>Welcome to Treat Tracker</title>
+        {% endif %}
+    </head>
+    <body>
+        <div> Treat Tracker: <a href="{{ url_for('index') }}">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

@@ -1,5 +1,5 @@
 # treat-tracker
-(Learning Project) Expense tracker built using Python/Flask on the Backend and React on the Frontend
+(Learning Project) Expense tracker built using Python/Flask on the Backend and React on the Frontend. Closely following Miguel Grierg's "The Flask Mega Tutorial" https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world. Following https://www.fullstackpython.com/react.html to learn React.
 
 ## Overal Design Description:
 Treat-Tracker will be a webiste that allows a user to input their expenditures into a database/table and view insights into their financial trends (e.g. graphs and charts)
