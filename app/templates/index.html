@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Treat Tracker</title>
+        {% else %}
+        <title>Welcome to Treat Tracker</title>
+        {% endif %}
+    </head>
+    <body>
+        <h1>Hello, {{ user.username }}!</h1>
+        {% for expense in expenses %}
+        <div>
+            <p>
+                {{ expense.date }} - {{ "${:.2f}".format(expense.amount) }} - {{ expense.category }} - {{ expense.description }}
+            </p>
+        </div>
+        {% endfor %}
+     </body>
+</html>
